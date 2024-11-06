@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+}
+
+.Name,
+.phone-no,
+.email,
+.password,
+.cpassword {
+    margin-bottom: 9px;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Name,.phone-no,.email,.password,.cpassword {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.form-inner-container {
+    width: 450px;
+    background: #aba9a9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-head {
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    height: 43px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="password"], 
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+}
+
+input[type="submit"] {
+    background: #04AA6D;
+    color: #fff;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 14px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color:#04AA6D ;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 14px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+}

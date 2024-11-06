@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhr Request</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-inner-container">
+            <div class="form-head">
+                <h2>Form Validation</h2>
+            </div>
+
+            <form id="validation-container" onsubmit="return validation(event)">
+                <div class="Name">
+                    <label for="fname">Name:</label>
+                    <input type="text"
+                    placeholder="Enter the Name"
+                    id="fname" 
+                    name="fname"
+                    required>
+                    <span class="error"></span>
+                </div>
+                
+                <div class="phone-no">
+                    <label for="phone-no">Phone:</label>
+                    <input type="tel"
+                    placeholder="Enter phone Number"
+                    id="phone"
+                    name="phone-no"
+                    required>
+                    <span class="error"></span>
+                </div>
+
+                <div class="email">
+                    <label for="Email">Email:</label>
+                    <input type="email"
+                    placeholder="Enter Email address" 
+                    id="email" 
+                    name="email"
+                    size="30"
+                    required>
+                    <span class="error"></span>
+                </div>
+
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input type="password"
+                    required
+                    id="pass"
+                    placeholder="Enter New password"
+                    name="password">
+                    <span class="error"></span>
+                </div>
+
+                <div class="cpassword">
+                    <label for="cpassword">confirm Password:</label>
+                    <input type="password"
+                    required
+                    id="cpass"
+                    placeholder="Enter password again"
+                    name="cpassword">
+                    <span class="error"></span>
+                </div>
+
+                <div class="submit-btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
